@@ -1,0 +1,239 @@
+:root {
+<<<<<<< HEAD
+	--tamano-fuente-primario: 1rem;
+	/* 16px */
+	--tamano-fuente-secundario: 0.875rem;
+	/* 14px */
+
+	--primer-plano: #333;
+	/* Color de texto principal */
+
+	--fondo: #f9f9f9;
+	/* Color de fondo */
+
+	--color-borde: #ccc;
+	/* Color del borde */
+	--borde-abreviado: 1px solid var(--color-borde);
+
+	/* Botón */
+	--hover-color-texto-boton: #fff;
+	/* Color de texto al pasar el ratón por encima del botón */
+	--hover-color-fondo-boton: #007bff;
+	/* Color de fondo al pasar el ratón por encima del botón */
+	--tamano-fuente-boton: 0.875rem;
+	/* 14px */
+
+	--siete: 0.438rem;
+	/* 7px */
+	--doce: 0.75rem;
+	/* 12px */
+
+	/* Fuentes */
+	--familia-fuente-primaria: 'Roboto', sans-serif;
+	--familia-fuente-secundaria: 'Arial', sans-serif;
+=======
+	--font-size-primary: 1rem;
+	/* 16px */
+	--font-size-secondary: 0.875rem;
+	/* 14px */
+
+	--foreground: #333;
+	/* Color de texto principal */
+	--background: #f9f9f9;
+	/* Color de fondo */
+
+	--border-color: #ccc;
+	/* Color del borde */
+	--border-shorthand: 1px solid var(--border-color);
+
+	/* Botón */
+	--button-hover-foreground: #fff;
+	/* Color de texto al pasar el ratón por encima del botón */
+	--button-hover-background: #007bff;
+	/* Color de fondo al pasar el ratón por encima del botón */
+	--font-size-button: 0.875rem;
+	/* 14px */
+
+	--seven: 0.438rem;
+	/* 7px */
+	--twelve: 0.75rem;
+	/* 12px */
+
+	/* Fuentes */
+	--font-family-primary: 'Roboto', sans-serif;
+	--font-family-secondary: 'Arial', sans-serif;
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+}
+
+*,
+*::before,
+*::after {
+<<<<<<< HEAD
+	color: var(--primer-plano);
+=======
+	color: var(--foreground);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+<<<<<<< HEAD
+	font-size: var(--tamano-fuente-primario);
+	font-family: var(--familia-fuente-primaria);
+	background-color: var(--fondo);
+=======
+	font-size: var(--font-size-primary);
+	font-family: var(--font-family-primary);
+	background-color: var(--background);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+}
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+<<<<<<< HEAD
+.contenedor {
+	max-width: 50.3rem;
+	margin-inline: auto;
+	padding: 0 calc(var(--doce) * 2);
+=======
+.container__ {
+	max-width: 50.3rem;
+	margin-inline: auto;
+	padding: 0 calc(var(--twelve) * 2);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+}
+
+/* Encabezado */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+<<<<<<< HEAD
+	border-bottom: var(--borde-abreviado);
+=======
+	border-bottom: var(--border-shorthand);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	margin-bottom: 1.75rem;
+}
+
+header a {
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+}
+
+<<<<<<< HEAD
+.navegacion ul {
+=======
+.__header-nav ul {
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	display: flex;
+	gap: 1.125rem;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+<<<<<<< HEAD
+.pagina-actual {
+	border-bottom: var(--borde-abreviado);
+=======
+.current-page__ {
+	border-bottom: var(--border-shorthand);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+}
+
+/* Pie de página */
+footer {
+	color: white;
+<<<<<<< HEAD
+	background: var(--primer-plano);
+	padding: 1em calc(var(--doce) * 2);
+=======
+	background: var(--foreground);
+	padding: 1em calc(var(--twelve) * 2);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	margin-top: 2.5rem;
+	text-align: center;
+	position: sticky;
+	top: 100%;
+}
+
+<<<<<<< HEAD
+.derechos-autor {
+=======
+.__footer-copyright {
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	color: inherit;
+}
+
+/* Aviso / Enlace */
+#notice {
+	margin-top: 0.656rem;
+<<<<<<< HEAD
+	padding: 0 var(--siete);
+	font-size: var(--tamano-fuente-secundario);
+=======
+	padding: 0 var(--seven);
+	font-size: var(--font-size-secondary);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	text-align: center;
+	line-height: 1.1;
+	word-wrap: break-word;
+}
+
+/* Media Query */
+@media (hover: hover) {
+<<<<<<< HEAD
+	.navegacion ul li a:hover {
+		border-bottom: var(--borde-abreviado);
+=======
+	.__header-nav ul li a:hover {
+		border-bottom: var(--border-shorthand);
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+	}
+}
+
+@media (max-width: 90rem) {
+
+	/* Tamaño de Fuente */
+	html {
+		font-size: calc(1rem - 10%);
+	}
+
+	/* -------- */
+
+	header {
+		flex-direction: column;
+	}
+
+<<<<<<< HEAD
+	.titulo-principal {
+		margin-bottom: 0.67rem;
+	}
+
+	.navegacion {
+		margin-bottom: 1.5rem;
+	}
+
+	.navegacion ul {
+=======
+	.__header-title {
+		margin-bottom: 0.67rem;
+	}
+
+	.__header-nav {
+		margin-bottom: 1.5rem;
+	}
+
+	.__header-nav ul {
+>>>>>>> cb363c53487e4767ca262b9de547ffbd4ad1cd22
+		gap: 2.25rem;
+	}
+}
